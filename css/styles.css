@@ -905,7 +905,8 @@ color: #2e2f42;
 }
 
 .ulmob{
- padding-top: 47px;
+ padding-top:41px ;
+
 }
 .mob-addres-list{
   display: flex;
@@ -913,5 +914,12 @@ color: #2e2f42;
 padding-top: 168px;
 padding-left: 16px;
 gap: 24px;
+
+}
+
+@media screen  and (min-width: 768px)  {
+.mobile-menu{
+  display: none;
+}
 
 }
